@@ -32,13 +32,12 @@ nav a {
     box-shadow: 4px 4px 8px 2px gray;
     
 }
-    
 body {
     background-color: oldlace;
 }
 
 img {
-    width: 200px;
+    width: 120px;
     margin: 10px;
     float: left;
     
