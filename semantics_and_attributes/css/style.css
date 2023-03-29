@@ -16,6 +16,11 @@ h1 {
     color: white;
 }
 
+h3 {
+    
+    margin-left: 60px;
+}
+
 nav a {
     color:white;
 }
@@ -37,4 +42,10 @@ img {
     margin: 10px;
     float: left;
     
+}
+
+footer {
+    background-color: goldenrod;
+    padding: 36px;
+    text-align: center;
 }
