@@ -36,15 +36,20 @@ body {
     background-color: oldlace;
 }
 
-img {
+.card img {
     width: 120px;
-    margin: 10px;
-    float: left;
-    
 }
 
+#image_container {
+    float:left;
+    padding-right: 24px;
+}
 footer {
     background-color: goldenrod;
     padding: 36px;
     text-align: center;
+}
+
+#clear {
+    clear: both;
 }
