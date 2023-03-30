@@ -1,0 +1,26 @@
+h1 {
+    text-align: left;
+}
+
+#div_1 {
+    font-family:serif;
+    padding: 0px;
+}
+
+nav ul {
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+}
+
+nav ul li {
+    font-size: 15px;
+    display: inline-block;
+    padding: 10px;
+}
+
+h2 {
+    padding-left:40px;
+    font-family:serif;
+    font-weight: lighter;
+}
