@@ -45,7 +45,8 @@ li a{
     visibility: hidden;
     transition:
      opacity 0.5s,
-     visibility 0.5s;
+     visibility 0.5s,
+     top 0.5s;
 }
 
     .dropdown_container:hover .dropdown_menu {
