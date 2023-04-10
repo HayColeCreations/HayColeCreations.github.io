@@ -1,0 +1,51 @@
+#my_grid {
+    display: grid;
+    grid-template-columns: 1fr 150px 650px 1fr;
+    grid-template-areas:
+    ". nav_area nav_area ." 
+    ". sidebar_area content_area_1 ."
+    ". sidebar_area content_area_2 ."
+    ". sidebar_area content_area_3 ."
+    ". sidebar_area content_area_4 ."
+    ". footer_area footer_area .";
+}
+
+.block {
+    padding: 50px;
+    font-size: 36px;
+}
+
+.block_1 {
+    background-color: red;
+     grid-area: content_area_2 ;
+    
+}
+
+.block_2 {
+    background-color: pink;
+    grid-area: content_area_3;
+}
+
+.block_3 {
+    background-color: aqua;
+    grid-area: sidebar_area;
+}
+.block_4 {
+    background-color: rgb(172, 54, 208);
+    grid-area: content_area_4;
+}
+
+.block_5 {
+    background-color: rgb(68, 228, 81);
+    grid-area: content_area_1;
+}
+
+.block_6 {
+    background-color: rgb(236, 242, 242);
+    grid-area: footer_area;
+}
+
+.block_7 {
+    background-color: rgb(205, 227, 227);
+    grid-area: nav_area;
+}
