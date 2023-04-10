@@ -62,6 +62,7 @@ footer a:hover {
         "hero_area hero_area hero_area"
         ". three_cards_area ."
         ". carousel_area ."
+        ". gallery_area ."
         ". two_cards_area ."
         "footer_area footer_area footer_area";
 }
@@ -179,6 +180,8 @@ footer ul {
         grid-template-areas: 
             "nav_area"
             "hero_area"
+            "three_cards_area"
+            "carousel_area"
             "gallery_area"
             "two_cards_area"
             "footer_area";
