@@ -9,7 +9,7 @@
 }
 
 body {
-    margin: 0;
+    margin: 0; 
 }
 
 h1,
@@ -86,7 +86,7 @@ nav {
 }
 
 #gallery_container {
-    grid-area: gallery_area;
+    grid-area: gallery_area; 
 }
 
 #two_cards {
