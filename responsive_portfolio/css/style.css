@@ -274,6 +274,17 @@ max-height: 1100px;
     width: 100%;
     margin-bottom: 24px;
 }
+
+#gallery_6 {
+    display: flex;
+    flex-wrap: wrap;
+}   
+#gallery_6 img{     
+    height: 300px;
+    margin: 12px;
+    flex: 1 0 auto;
+    object-fit: cover;
+}
 /****************************************************************************
   Media Query - Mobile Breakpoint
 ****************************************************************************/
