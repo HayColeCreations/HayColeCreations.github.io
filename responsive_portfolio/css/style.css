@@ -265,21 +265,21 @@ max-height: 1100px;
     margin: 12px;
 }
 
-#gallery_5 {
+#gallery_6 {
     columns: 3 auto;
     column-gap: 24px;
 }
 
-#gallery_5 img {
+#gallery_6 img {
     width: 100%;
     margin-bottom: 24px;
 }
 
-#gallery_6 {
+#gallery_ {
     display: flex;
     flex-wrap: wrap;
 }   
-#gallery_6 img{     
+#gallery_ img{     
     height: 300px;
     margin: 12px;
     flex: 1 0 auto;
