@@ -11,6 +11,7 @@
 
 body {
     margin: 0; 
+    
   
 }
 
@@ -46,7 +47,7 @@ footer  {
     width: 100%;
     color: #e1a777;
     font-family: 'Montserrat', sans-serif;
-    background: #e1a777;
+    background: #fffefd;
     margin: 0px; 
 }
 
@@ -71,6 +72,8 @@ footer a:hover {
         ". gallery_area ."
         ". two_cards_area ."
         "footer_area footer_area footer_area";
+        background-color: #e1a777;
+        margin-bottom: 30px;
 }
 
 nav {
@@ -106,7 +109,11 @@ footer {
 nav {
     align-items: center;
     display: flex;
-    margin: 0 24px;
+    padding: 0 24px;
+}
+
+nav img {
+    width: 100px;
 }
 
 footer {
@@ -183,9 +190,9 @@ footer ul {
 #hero a,
 .card a {
     font-family: 'Montserrat', sans-serif;
-    background-color: aliceblue;
-    color: indigo;
-    border: 2px solid indigo;
+    background-color: rgb(234, 234, 234);
+    color: #e1a777;
+    border: 2px solid #e1a777;
     border-radius: 24px;
     display: inline-block;
     padding: 8px 16px;
@@ -197,32 +204,40 @@ footer ul {
 #hero a:hover,
 .card a:hover {
     transform: scale(1.1);
+    background-color: #fffefd;
+
 }
 
 /****************************************************************************
   Card styles
 ****************************************************************************/
 
-#three_cards, #two_cards {
+#three_cards, #two_cards, #card {
     display: flex;
 }
 
 .card {
-    border: 2px solid indigo;
-    color: indigo;
+    
     margin: 48px 24px 24px;
     padding: 12px 12px 24px;
     text-align: center;
     box-shadow: 4px 4px 8px  rgb(17, 54, 71);
     flex: 1;
     flex-direction: column;
+   
 }
 
-.card p {
-    font-size: 18px;
+.card img {
     flex: 1;
     margin-top: 0px;
+    height: fit-content;
 }
+#three_cards, #two_cards, #card img {
+    flex: 1;
+    margin-top: 0px;
+    height: fit-content;
+}
+
 /****************************************************************************
   Gallery styles
 ****************************************************************************/
@@ -230,52 +245,11 @@ footer ul {
     text-align: center;
 }
 
-#gallery_1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-#gallery_1 img {
-    width: 100%;
-}
-
-/* GALLERY 2 */
-#gallery_2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-#gallery_2 img {
-    width: calc(800px / 3);
-    height: calc(800px / 3);  
-    object-fit: cover;  
-}
-
-#gallery_3 {
-    display: flex;
-    flex-wrap: wrap;
-}   
-#gallery_3 img{     
-    height: 200px;
-    margin: 12px;
-    flex: 1 0 auto;
-    object-fit: cover;
-}
-#gallery_4{
-display: flex;
-flex-direction: column;
-flex-wrap: wrap;
-max-height: 1100px;
-
-}
-#gallery_4 img {
-    width: 30%;
-    margin: 12px;
-}
-
 #gallery_6 {
     columns: 3 auto;
     column-gap: 24px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 #gallery_6 img {
@@ -292,6 +266,14 @@ max-height: 1100px;
     margin: 12px;
     flex: 1 0 auto;
     object-fit: cover;
+}
+
+#carousel_container {
+    margin-bottom: 20px;
+}
+
+#carousel_container h2 {
+    text-align: center;
 }
 /****************************************************************************
   Media Query - Mobile Breakpoint
@@ -323,6 +305,10 @@ max-height: 1100px;
         margin: 26px 24px 0px;
     }
 
+    .card img {
+        width: 50%;
+    }
+
     #gallery_1, #gallery_2 {
         grid-template-columns: 1fr;
     }
@@ -335,11 +321,12 @@ max-height: 1100px;
         max-height: 1900px;
     }
 
-    #gallery_4 img {
+    #gallery_4 img  {
         width: 45%;
     }
-    #gallery_5 {
+    #gallery_6{
         columns: 2 auto;
+       margin: 10px;
     }
 
 }
