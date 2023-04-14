@@ -134,6 +134,7 @@ footer {
 #nav_links li,
 .social_media li {
     padding: 0 4px;
+    margin-top: 10px;
 }
 
 nav .social_media {
@@ -236,6 +237,7 @@ footer ul {
     flex: 1;
     margin-top: 0px;
     height: fit-content;
+    margin: 48px 24px 24px;
 }
 
 /****************************************************************************
@@ -309,21 +311,7 @@ footer ul {
         width: 50%;
     }
 
-    #gallery_1, #gallery_2 {
-        grid-template-columns: 1fr;
-    }
 
-    #gallery_2 img {
-        width: 100%;
-        height: auto;
-    }   
-    #gallery_4 {
-        max-height: 1900px;
-    }
-
-    #gallery_4 img  {
-        width: 45%;
-    }
     #gallery_6{
         columns: 2 auto;
        margin: 10px;
