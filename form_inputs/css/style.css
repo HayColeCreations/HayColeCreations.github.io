@@ -1,0 +1,33 @@
+body{
+    background-image: url(../images/guillaume-techer-Jm9P0mDPo6A-unsplash.jpg);
+    color: white;
+}
+
+h1{
+    background-color: black;
+    text-align: center;
+    margin: 100px;
+   
+}
+
+form {
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: rgb(126, 160, 190, 0.3);
+    padding: 30px;
+}
+
+img {
+    padding-left: 300px;
+    padding-right: 300px;
+
+}
+
+#form2 {
+    text-align: center;
+}
+
+
+
+
+

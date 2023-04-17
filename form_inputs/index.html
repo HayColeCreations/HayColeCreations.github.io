@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Forms</title>
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Your Song</h1>
+        <form>
+            <h4>Personality test- What song fits you the most?</h4>
+            <br>
+            <fieldset>
+            <div>
+                    <label for="first_name_id">First Name:</label>
+                    <input type="text" id="first_name_id" name="first_name">
+               </div>
+               <br>
+               <div>
+                    <label for="last_name_id"> Last Name:</label>
+                    <input type="text" id="last_name_id" name="last_name">
+               </div>
+               <br>
+               <div>
+                <label for="alt_ego_id"> Favorite genre:</label>
+                <input type="text" id="last_name_id" name="last_name">
+           </div>
+               <br>
+               <div>
+                <label for="ypur_story_id"> Tell us a little about yourself</label>
+                <textarea 
+                    id="code_feeling_id" 
+                    name="code_feelings"
+                    rows="5"
+                    cols="40"
+                    placeholder="text entry"></textarea> 
+               </div> 
+            </fieldset> 
+            <fieldset>    
+               <p>Whats your favorite hobby? (Multiple Choice)</p>
+                <div>
+                    <input type="checkbox" id="art_checkbox" name="choice_1" value="art">
+                    <label for="art_checkbox">Art</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="travel_checkbox" name="choice_2" value="travel">
+                    <label for="travel_checkbox">Traveling</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="gaming_checkbox" name="choice_3" value="gaming">
+                    <label for="gaming_checkbox">Gaming</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="baking_checkbox" name="choice_4" value="baking">
+                    <label for="baking_checkbox">Baking</label>
+                </div>
+                <p>Choose a color palette</p>
+
+                <div>
+                    <input type="radio" id="rasp_radio" name="color" value="rasp">
+                    <label for="rasp_radio"> Earth tones</label>
+                </div>
+                <div>
+                    <input type="radio" id="rasp_radio" name="color" value="rasp">
+                    <label for="rasp_radio">CANT CHOOSE!</label>
+                </div>
+                <div>
+                    <input type="radio" id="rasp_radio" name="color" value="rasp">
+                    <label for="rasp_radio"> Pastel colors</label>
+                </div>
+                <div>
+                    <input type="radio" id="rasp_radio" name="color" value="rasp">
+                    <label for="rasp_radio"> Neon colors</label>
+                </div>
+                <div>
+                    <input type="radio" id="rasp_radio" name="color" value="rasp">
+                    <label for="rasp_radio"> Classic colors</label>
+                </div>
+                <br>
+                <div>
+                    <label for="i_am_id">
+                        You're freinds would say you are...
+                    </label>
+                    <select id="i_am_id" name="i_am">
+                        <option value="input"> ...</option>
+                        <option value="shy">shy</option>
+                        <option value="outgoing">outgoing</option>
+                        <option value="idonthave">i dont have friends</option>
+                        <option value="insane">insane</option>
+                        <option value="chill">chill</option>
+                    </select>
+                </div>
+            </fieldset>     
+        </form>
+        <form id="form2">
+            <div>
+                <input type="reset" value="Lets start over">
+                <input type="submit" value="Send my Answers!">
+            </div>
+        </form>
+        <img src="images/200w.gif"> 
+
+    </body>
+</html>
