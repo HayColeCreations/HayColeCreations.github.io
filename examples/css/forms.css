@@ -17,6 +17,17 @@
     background-color: darkseagreen;
 }
 
+#first_name_id:invalid {
+    background-color: lightcoral;
+    border-bottom: 4px solid red;
+}
+
+/* valid class */
+#first_name_id:valid {
+    background-color: lightgreen;
+    border-bottom: 4px solid green;
+}
+
 #first_name_id:focus-visible {
     outline: 0;
     background-color: rgb(179, 205, 175);

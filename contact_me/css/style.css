@@ -41,7 +41,6 @@
         border: 2px solid rgb(243, 242, 242);
         padding: 36px;
         margin: 0px 20px 20px;
-        
     }
 
     .text_input label{
@@ -55,11 +54,13 @@
         margin: 10px 30px 30px;
         padding: 12px;
         font-family:sans-serif;
+        border: 1px solid rgb(121, 121, 121);
 
     }
 
-    #last_name_id:focus-visible {
-        
+    #message_id:focus-visible {
+        outline: 0;
+        border: 3px solid gray;
     }
 
     #email_id {
@@ -67,7 +68,13 @@
         margin: 10px 30px 30px;
         padding: 12px;
         font-family:sans-serif;
+        border: 1px solid rgb(121, 121, 121);
 
+    }
+
+    #email_id:focus-visible {
+        outline: 0;
+        border: 3px solid rgb(193, 222, 197)
     }
 
     #first_name_id {
@@ -75,15 +82,33 @@
         margin: 10px 30px 30px;
         padding: 12px;
         font-family:sans-serif;
+        border: 1px solid rgb(121, 121, 121);
 
     }
+
+    input:not(:focus):not(:placeholder-shown):invalid {
+        background-color: lightcoral;
+    }
+
+    #first_name_id:focus-visible {
+        outline: 0;
+        border: 3px solid gray;
+    }
+
 
     #help_id {
         width: 430px;
         margin: 10px 30px 30px;
         padding: 12px;
         font-family:sans-serif;
+        border: 1px solid rgb(121, 121, 121);
     }
+
+    #help_id:focus-visible {
+        outline: 0;
+        border: 3px solid rgb(193, 222, 197) ;
+    }
+
 
     input[type=submit] {
         background: rgb(196, 195, 195);
@@ -92,12 +117,17 @@
         padding: 12px 48px;
         margin-left: 30px;
         cursor: pointer;
+        font-size: 15px;
     } 
     
     input[type=submit]:hover {
-        background: rgb(221, 188, 220);
+        background: rgb(120, 119, 119);
     }
 
+    p {
+        text-align: right;
+        font-size: 12px;
+    }
         
 
     
