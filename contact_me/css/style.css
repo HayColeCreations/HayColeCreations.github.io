@@ -11,17 +11,24 @@
 
     h1 {
         text-align: center;
+        margin-top: 50px;
+        margin-bottom: 0px;
     }
 
     h4 {
         margin-left: 30px;
+        margin-top: 20px;
     }
 
     h5 {
         text-align: center;
         font-weight: lighter;
         font-size: 13px;
-        margin: 0 50px 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+        font-size: 15px;
+        
+        
     }
 
     header {
@@ -40,7 +47,7 @@
         background-color: white;
         border: 2px solid rgb(243, 242, 242);
         padding: 36px;
-        margin: 0px 20px 20px;
+        margin: 0px 0px 50px;
     }
 
     .text_input label{
