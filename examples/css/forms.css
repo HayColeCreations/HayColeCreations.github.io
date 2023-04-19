@@ -1,0 +1,112 @@
+.text_input label{
+    display: block;
+}
+
+.text_input input {
+    /*      top left/right   */
+    margin: 4px 0px 16px;
+    padding: 12px;
+    font-size: 18px;
+    font-family: verdana, sans-serif;
+    width: 300px;
+}
+
+#first_name_id {
+    border: 0px;
+    border-bottom: 4px solid rgb(174, 145, 110);
+    background-color: darkseagreen;
+}
+
+#first_name_id:focus-visible {
+    outline: 0;
+    background-color: rgb(179, 205, 175);
+}
+
+#last_name_id {
+    border: 5px solid rgb(179, 205, 175);
+    border-radius: 24px;
+    color: rgb(49, 70, 49);
+}
+
+#last_name_id:focus-visible {
+    outline: 0px;
+    background-color: black;
+    color: white;
+}
+
+#code_feelings_id {
+    width: 400px;
+    height: 100px;
+    margin-top: 4px;
+    padding: 12px;
+    font-family: verdana, sans-serif;
+    font-size: 18px;
+}
+
+#bike_checkbox,
+#rasp_radio {
+    border: 5px solid red;
+    padding: 24px;
+    background-color: black;
+    color: aqua;
+}
+
+input[type=date] {
+    padding: 12px;
+    border: 3px dashed grey;
+    font-family: cursive;
+    font-size: 24px;
+    color: lightcoral;
+    background-color: rgb(193, 224, 230);
+}
+
+select {
+    padding: 12px;
+    border: 3px dashed purple;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    color: rgb(34, 92, 143);
+}
+
+input[type=button] {
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    margin-right: 12px;
+    cursor: pointer;
+
+}
+input[type=button]:hover {
+    background-color: darkgray;
+    color: aliceblue;
+}
+
+input[type=reset] {
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 12px;
+    margin-right: 12px;
+    background: linear-gradient(to bottom, purple, indigo, green, blue);
+    color: aliceblue;
+    cursor: pointer;
+}
+
+input[type=reset]:active {
+    background: linear-gradient(to top,purple, indigo, green, blue);
+}
+
+input[type=submit] {
+    background: linear-gradient(to bottom,skyblue, teal);
+    border:0px;
+    border-radius: 8px;
+    padding: 12px 48px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    opacity: 0.5;
+}
+input[type=submit]:active {
+    background: linear-gradient(to top, skyblue, teal);
+}
+
+

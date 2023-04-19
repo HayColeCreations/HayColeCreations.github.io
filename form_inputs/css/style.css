@@ -1,20 +1,21 @@
 body{
     background-image: url(../images/guillaume-techer-Jm9P0mDPo6A-unsplash.jpg);
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 h1{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     text-align: center;
     margin: 100px;
-   
 }
 
 form {
     margin-left: 100px;
     margin-right: 100px;
-    background-color: rgb(126, 160, 190, 0.3);
+    background-color: rgba(189, 189, 189, 0.1);
     padding: 30px;
+    
+    
 }
 
 img {
@@ -25,6 +26,14 @@ img {
 
 #form2 {
     text-align: center;
+}
+
+/* Mobile breakpoint */
+@media only screen and (max-width: 767px) {
+    #desktop,
+    #tablet {
+        display: none;
+    }
 }
 
 
