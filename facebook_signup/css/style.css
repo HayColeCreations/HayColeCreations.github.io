@@ -1,0 +1,140 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(244, 242, 242);
+}
+
+h1 {
+    margin-left: 20px;
+    margin-bottom: 0px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+#div_1 {
+    margin-left: 20px;
+    padding-top: 0px;
+    color: rgb(96, 95, 95);
+    text-align: center;
+}
+
+form {
+    background-color: white;
+    border: 2px solid rgb(243, 242, 242);
+    padding: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px;
+    
+}
+
+hr {
+    width: 100%;
+    border: .5px solid lightgray;
+}
+
+img {
+    display: block;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+.flexbox {
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.second {
+    justify-content: center;
+}
+
+.third {
+    justify-content: center;
+}
+
+.names{
+    justify-content: center;
+    
+}
+
+.birthday {
+    justify-content: center;
+}
+
+#password_id {
+    width: 433px;
+    padding: 12px;
+    border: 1px solid rgb(212, 212, 212);
+    margin-top: 0px;
+    border-radius: 5px;
+}
+
+#first_name_id {
+    width: 200px;
+    margin-left: 5px;
+    padding: 12px;
+    border: 1px solid rgb(212, 212, 212);
+    border-radius: 5px;
+}
+
+#email_id {
+    width: 433px;
+    margin: 10px 3px 0px;
+    padding: 12px;
+    border: 1px solid rgb(212, 212, 212);
+    border-radius: 5px;
+}
+
+p {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 12px;
+    color:  rgb(117, 116, 116);
+}
+
+#first_name_id {
+    width: 200px;
+    margin-left: 5px;
+    padding: 12px;
+    border: 1px solid rgb(212, 212, 212);
+    border-radius: 5px;
+}
+
+.labels {
+    margin-left: 200px;
+    font-size: 2px;
+}
+
+#month_id, #day_id, #year_id{
+    width: 150px;
+    height: 40px;
+    margin-right: 3px;
+    border-radius: 5px;
+    border: 1px solid rgb(212, 212, 212);
+}
+
+.genders {
+    width: 150px;
+    height: 40px;
+    margin-right: 3px;
+    border-radius: 5px;
+    border: 1px solid rgb(212, 212, 212);
+}
+
+.row {
+    justify-content: center;
+}
+
+.labels {
+    font-size: 12px;
+    color: rgb(113, 112, 112);
+}
+
+
+   
+
+
+
+

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Document</title>
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <img src="images/fb_logo.svg" alt="fb_logo">
+        <div class="flexbox form">
+            <form>
+                    <h1>
+                        Sign Up
+                    </h1>
+                    <div id="div_1">it's quick and easy.</div>
+                    <hr>
+            <div class="flexbox names">    
+                <div class="text_input">
+                    <input 
+                    required
+                    minlength="3"
+                    maxlength="30"
+                    placeholder="First Name"
+                    type="text" id="first_name_id" name="first_name">
+                </div>
+                    <br>
+                <div class="text_input">
+                    <input 
+                    required
+                    minlength="3"
+                    maxlength="30"
+                    placeholder="Last Name"
+                    type="text" id="first_name_id" name="first_name">
+            </div>
+                <br>
+            </div>
+            <div class="flexbox second">
+                <div class="text_input">
+                    <input
+                    required 
+                    placeholder="email"
+                    type="email" 
+                    id="email_id" 
+                    name="email_name">
+            </div>
+            </div>
+            <br> 
+            <div class="flexbox third">
+                <div class="text_input">
+                    <input
+                    required
+                    placeholder="password" 
+                    type="password" 
+                    id="password_id" 
+                    name="password">
+                </div>
+            </div>   
+               
+                <br>
+            <div class="labels">    
+                <label for="month">Birthday </label>
+            </div>    
+            <div class="flexbox birthday">
+                <div>
+                    <select id="month_id" name="month" required>
+                        <option value="aug"> Aug</option>
+                        <option value="feb">Feb</option>
+                        <option value="jan">Jan</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <select id="day_id" name="day" required>
+                        <option value="seven"> 17</option>
+                        <option value="third">18</option>
+                        <option value="second">19</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <select id="year_id" name="year" required>
+                        <option value="seven"> 2004</option>
+                        <option value="third">2003</option>
+                        <option value="second">2001</option>
+                    </select>
+                </div>
+            </div>
+            <br>
+            <div class="labels">    
+                <label for="radio">Birthday</label>
+            </div> 
+            <div class="flexbox row">
+                <div class="genders">
+                    <div class="gender">
+                        <input type="radio" id="rasp_radio" name="gen" value="rasp">
+                        <label for="rasp_radio">Female</label>
+                    </div>
+                </div> 
+                <div class="genders">  
+                    <div>
+                        <input type="radio" id="rasp_radio" name="gen" value="rasp">
+                        <label for="rasp_radio">Female</label>
+                    </div>
+                </div>
+                <div class="genders">      
+                    <div>
+                        <input type="radio" id="rasp_radio" name="gen" value="rasp">
+                        <label for="rasp_radio">Custom</label>
+                    </div>
+                </div> 
+            </div>        
+             
+            <p>
+                People who use our service may have uploaded your contact information to Facebook. Learn more.
+            </p>
+            <p>
+                By clicking Sign Up, you agree to our <a href="#"> Privacy Policy </a> and Cookies Policy. You may receive SMS notifications from us and can opt out at any time.
+            </p>
+            <div>
+                <input type="submit" value="Sign up">
+            </div>
+            </form>
+    </div>
+    </body>
+</html>
