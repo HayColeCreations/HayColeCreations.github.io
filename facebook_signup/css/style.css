@@ -1,6 +1,9 @@
+
 body {
     font-family: sans-serif;
     background-color: rgb(244, 242, 242);
+    padding-left: 300px;
+    padding-right: 300px;
 }
 
 h1 {
@@ -20,11 +23,8 @@ h1 {
 form {
     background-color: white;
     border: 2px solid rgb(243, 242, 242);
-    padding: 10px;
-    margin-left: 50px;
-    margin-right: 50px;
     border-radius: 10px;
-    
+    align-items: center;
 }
 
 hr {
@@ -34,7 +34,7 @@ hr {
 
 img {
     display: block;
-    width: 30%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
    
@@ -42,8 +42,9 @@ img {
 
 .flexbox {
     display: flex;
-    margin-left: 10px;
-    margin-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center;
 }
 
 .second {
@@ -64,63 +65,88 @@ img {
 }
 
 #password_id {
-    width: 433px;
+    width: 425px;
     padding: 12px;
     border: 1px solid rgb(212, 212, 212);
     margin-top: 0px;
     border-radius: 5px;
+    font-size: 15px;
 }
 
-#first_name_id {
-    width: 200px;
-    margin-left: 5px;
-    padding: 12px;
-    border: 1px solid rgb(212, 212, 212);
-    border-radius: 5px;
+#password_id:focus-visible {
+    outline: 0;
+    border: solid 1px rgb(212, 212, 212);
+}
+
+#password_id:not(:focus):not(:placeholder-shown):invalid {
+    border: solid 1px rgb(255, 7, 7);
+}
+
+#first_name_id:focus-visible {
+    outline: 0;
+    border: solid 1px rgb(212, 212, 212);
 }
 
 #email_id {
-    width: 433px;
+    width: 425px;
     margin: 10px 3px 0px;
     padding: 12px;
     border: 1px solid rgb(212, 212, 212);
     border-radius: 5px;
+    font-size: 15px;
+
 }
 
+#email_id:focus-visible {
+    outline: 0;
+    border: solid 1px rgb(212, 212, 212);
+}
+
+#email_id:not(:focus):not(:placeholder-shown):invalid {
+    border: solid 1px rgb(255, 7, 7);
+}
+
+
+
 p {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 28px;
+    margin-right: 10px;
     font-size: 12px;
     color:  rgb(117, 116, 116);
 }
 
 #first_name_id {
-    width: 200px;
+    width: 197.5px;
     margin-left: 5px;
     padding: 12px;
     border: 1px solid rgb(212, 212, 212);
     border-radius: 5px;
+    font-size: 15px;
 }
 
-.labels {
-    margin-left: 200px;
-    font-size: 2px;
+#first_name_id:not(:focus):not(:placeholder-shown):invalid {
+    border: solid 1px rgb(255, 7, 7);
 }
+
+
 
 #month_id, #day_id, #year_id{
-    width: 150px;
+    width: 146px;
     height: 40px;
-    margin-right: 3px;
+    margin: 3px;
     border-radius: 5px;
     border: 1px solid rgb(212, 212, 212);
+    font-size: 15px;
 }
 
 .genders {
-    width: 150px;
-    height: 40px;
-    margin-right: 3px;
+    display: inline-block;
+    padding: 9px 37px;
+    margin: 3px;
     border-radius: 5px;
     border: 1px solid rgb(212, 212, 212);
+    text-align: center;
+    font-size: 15px;
 }
 
 .row {
@@ -130,7 +156,33 @@ p {
 .labels {
     font-size: 12px;
     color: rgb(113, 112, 112);
+    margin-left: 30px;
 }
+
+input[type=submit] {
+    background: rgb(14, 162, 14);
+    border:0px;
+    border-radius: 5px;
+    padding: 12px 48px;
+    cursor: pointer;
+    font-size: 19px;
+    font-weight: bold;
+    color:aliceblue ;
+    
+} 
+
+h4 {
+    color: blue;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+input[type=submit]:hover {
+    background: rgb(9, 158, 34);
+    color: rgb(230, 225, 225);
+}
+
+
 
 
    

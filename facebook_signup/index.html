@@ -8,8 +8,9 @@
         <link href="css/style.css" rel="stylesheet">
     </head>
     <body>
-        <img src="images/fb_logo.svg" alt="fb_logo">
-        <div class="flexbox form">
+            <img src="images/fb_logo.svg" alt="fb_logo">
+            <section id="grid_container">
+            <div class="flexbox form">
             <form>
                     <h1>
                         Sign Up
@@ -40,7 +41,7 @@
                 <div class="text_input">
                     <input
                     required 
-                    placeholder="email"
+                    placeholder="Mobile number or email"
                     type="email" 
                     id="email_id" 
                     name="email_name">
@@ -51,6 +52,7 @@
                 <div class="text_input">
                     <input
                     required
+                    minlength="5"
                     placeholder="password" 
                     type="password" 
                     id="password_id" 
@@ -89,7 +91,7 @@
             </div>
             <br>
             <div class="labels">    
-                <label for="radio">Birthday</label>
+                <label for="radio">Gender</label>
             </div> 
             <div class="flexbox row">
                 <div class="genders">
@@ -101,7 +103,7 @@
                 <div class="genders">  
                     <div>
                         <input type="radio" id="rasp_radio" name="gen" value="rasp">
-                        <label for="rasp_radio">Female</label>
+                        <label for="rasp_radio">Male</label>
                     </div>
                 </div>
                 <div class="genders">      
@@ -113,15 +115,20 @@
             </div>        
              
             <p>
-                People who use our service may have uploaded your contact information to Facebook. Learn more.
+                People who use our service may have uploaded your contact information to Facebook. <a href="#">Learn more.</a>
             </p>
             <p>
-                By clicking Sign Up, you agree to our <a href="#"> Privacy Policy </a> and Cookies Policy. You may receive SMS notifications from us and can opt out at any time.
+                By clicking Sign Up, you agree to our<a href="#"> Privacy Policy </a> and <a href="#">Cookies Policy</a>. You may receive SMS notifications from us and can opt out at any time.
             </p>
-            <div>
+            <br>
+            <div class="flexbox">
                 <input type="submit" value="Sign up">
+            </div>
+            <div class="flexbox">
+                <h4>Already have an account?</h4>
             </div>
             </form>
     </div>
+    </section>
     </body>
 </html>
