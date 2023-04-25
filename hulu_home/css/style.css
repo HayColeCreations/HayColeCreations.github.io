@@ -1,0 +1,61 @@
+body {
+    font-family: sans-serif;
+}
+
+.bundle {
+    width: 400px;
+    
+}
+
+.top_box {
+  display: block;
+  justify-content: center;
+}
+
+.green_head {
+    color: rgb(27, 215, 90);
+}
+
+.offer {
+    color: white;
+}
+
+.getem {
+    background-color: rgb(27, 215, 90) ;
+}
+
+.small_bottom {
+    text-decoration: underline;
+    color: white;
+}
+
+#hero {
+    height: 80vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(../images/hulu-bg.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
