@@ -1,0 +1,82 @@
+body {
+    font-family: sans-serif;
+}
+
+.bundle {
+    width: 400px;
+    
+}
+
+.top_box {
+  display: block;
+  justify-content: center;
+  text-align: center;
+}
+
+.green_head {
+    color: #1CE783;
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.offer {
+    color: white;
+}
+
+.getem {
+    background-color: #1CE783; ;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.small_bottom {
+    text-decoration: underline;
+    color: white;
+}
+
+.bundle2 {
+    width: 200px;
+}
+
+
+
+.bottom_box {
+    background-color: rgba(0, 0, 0, 0.51);
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+
+#hero {
+    height: 80vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/hulu-bg.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
